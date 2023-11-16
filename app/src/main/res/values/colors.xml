@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="md_lime_50">#f9fbe7</color>
+    <color name="md_lime_100">#f0f4c3</color>
+    <color name="md_lime_200">#e6ee9c</color>
+    <color name="md_lime_300">#dce775</color>
+    <color name="md_lime_400">#d4e157</color>
+    <color name="md_lime_500">#cddc39</color>
+    <color name="md_lime_600">#c0ca33</color>
+    <color name="md_lime_700">#afb42b</color>
+    <color name="md_lime_800">#9e9d24</color>
+    <color name="md_lime_900">#827717</color>
+    <color name="md_lime_A100">#f4ff81</color>
+    <color name="md_lime_A200">#eeff41</color>
+    <color name="md_lime_A400">#c6ff00</color>
+    <color name="md_lime_A700">#aeea00</color>
+    <color name="md_lime_500_25">#40cddc39</color>
+    <color name="md_lime_500_50">#80cddc39</color>
+    <color name="md_lime_500_75">#c0cddc39</color>
+    <color name="md_amber_50">#fff8e1</color>
+    <color name="md_amber_100">#ffecb3</color>
+    <color name="md_amber_200">#ffe082</color>
+    <color name="md_amber_300">#ffd54f</color>
+    <color name="md_amber_400">#ffca28</color>
+    <color name="md_amber_500">#ffc107</color>
+    <color name="md_amber_600">#ffb300</color>
+    <color name="md_amber_700">#ffa000</color>
+    <color name="md_amber_800">#ff8f00</color>
+    <color name="md_amber_900">#ff6f00</color>
+    <color name="md_amber_A100">#ffe57f</color>
+    <color name="md_amber_A200">#ffd740</color>
+    <color name="md_amber_A400">#ffc400</color>
+    <color name="md_amber_A700">#ffab00</color>
+    <color name="md_amber_500_25">#40ffc107</color>
+    <color name="md_amber_500_50">#80ffc107</color>
+    <color name="md_amber_500_75">#c0ffc107</color>
+    <color name="azul_google">#04309C</color>
+    <color name="color_hint">#9FA8DA</color>
+    <color name="rojo">#FD0102</color>
+
+    FD0102
+
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Info">
+
+    <LinearLayout
+        android:id="@+id/Linear1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/textoTitulo"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="X3LA"
+            android:textSize="36sp"
+            android:gravity="right"
+            android:textColor="@color/azul_google"
+            />
+        <TextView
+            android:id="@+id/textoTitulo2"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="."
+            android:textSize="36sp"
+            android:gravity="center"
+            android:textColor="@color/rojo"
+            />
+        <TextView
+            android:id="@+id/textoTitulo3"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="SITE"
+            android:textSize="36sp"
+            android:gravity="left"
+            android:textColor="@color/azul_google"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewBandera"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/banderaxela3"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:text="Un producto de d3sarrollo.net para hacer más fácil el buscar los productos y servicios que necesitas"
+        android:textColor="@color/common_google_signin_btn_text_light"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewTituloManual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:gravity="center"
+        android:text="--- MANUAL DE USUARIO aqui ---"
+        android:textColor="@color/md_amber_800"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:gravity="center"
+        android:text="¿Quieres aparecer en el mapa y llegar a más clientes?"
+        android:textColor="@color/azul_google"
+        android:textSize="22sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/textViewTitulo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:gravity="center"
+        android:text="presiona ¡aqui!"
+        android:textColor="@color/rojo"
+        android:textSize="22sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+
+    <Button
+        android:id="@+id/buttonRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginBottom="183dp"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

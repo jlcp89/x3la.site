@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">x3la </string>
+    <string name="banner_ad_unit_id">"ca-app-pub-7114592307899156/7174417786"</string>
+
+    <!-- PRUEBA
+    <string name="banner_ad_unit_id">"ca-app-pub-3940256099942544/6300978111"</string>
+    -->
+    <!-- REAL
+    <string name="banner_ad_unit_id">"ca-app-pub-7114592307899156/7174417786"</string>
+    -->
+
+
+
+    <string-array name="subcategorias_array">
+
+        <item>Abogado</item>
+        <item>Acuario</item>
+        <item>Aeropuerto</item>
+        <item>Agencia de seguros</item>
+        <item>Agencia de viajes</item>
+        <item>Agencia inmobiliaria</item>
+        <item>Agregados</item>
+        <item>Albañil</item>
+        <item>Alquifiestas</item>
+        <item>Alquiler de peliculas</item>
+        <item>Arquitecto</item>
+        <item>Artesania</item>
+        <item>Balneario</item>
+        <item>Banco</item>
+        <item>Bar</item>
+        <item>Biblioteca</item>
+        <item>Billar</item>
+        <item>Bloquera</item>
+        <item>Bolera</item>
+        <item>Bomberos</item>
+        <item>Cafeteria</item>
+        <item>Cajero automatico</item>
+        <item>Camion Agua</item>
+        <item>Camping</item>
+        <item>Cancha Sintetica</item>
+        <item>Cardiologo</item>
+        <item>Carniceria</item>
+        <item>Carpintero</item>
+        <item>CarWash</item>
+        <item>Casa de Empeño</item>
+        <item>Casino</item>
+        <item>Celulares</item>
+        <item>Cementerio</item>
+        <item>Centro Comercial</item>
+        <item>Centro de Convenciones</item>
+        <item>Cerrajero</item>
+        <item>Cine</item>
+        <item>Colegio</item>
+        <item>Compra y Venta Autos</item>
+        <item>Computadoras</item>
+        <item>Contable</item>
+        <item>Cooperativa</item>
+        <item>Deposito de Licores</item>
+        <item>Dermatologo</item>
+        <item>Discoteca</item>
+        <item>Electricista</item>
+        <item>Electrodomesticos</item>
+        <item>Electromecanico</item>
+        <item>Embajada</item>
+        <item>Enderezado y Pintura</item>
+        <item>Enfermera</item>
+        <item>Escuela</item>
+        <item>Escuela de Idiomas</item>
+        <item>Estacion de autobuses</item>
+        <item>Estadio</item>
+        <item>Estilista</item>
+        <item>Eventos Especiales</item>
+        <item>Farmacia</item>
+        <item>Ferreteria</item>
+        <item>Fisioterapeuta</item>
+        <item>Flete</item>
+        <item>Floristeria</item>
+        <item>Fontanero</item>
+        <item>Fotocopiadora</item>
+        <item>Funeraria</item>
+        <item>Galeria de Arte</item>
+        <item>Gasolinera</item>
+        <item>Gimnasio</item>
+        <item>Hamburguesas</item>
+        <item>Helados</item>
+        <item>Herrero</item>
+        <item>Hilos</item>
+        <item>Hospital</item>
+        <item>Hotel</item>
+        <item>Iglesia</item>
+        <item>Imprenta</item>
+        <item>Instituto</item>
+        <item>Ingeniero</item>
+        <item>Insumos Automotrices</item>
+        <item>Internet</item>
+        <item>Joyeria</item>
+        <item>Juegos</item>
+        <item>Laboratorio Medico</item>
+        <item>Lavanderia</item>
+        <item>Libreria</item>
+        <item>Llantera</item>
+        <item>Lugar Turistico</item>
+        <item>Madera</item>
+        <item>Marmoleria</item>
+        <item>Material Construccion</item>
+        <item>Material Electrico</item>
+        <item>Mecanico</item>
+        <item>Medico</item>
+        <item>Ministerio</item>
+        <item>Ministerio Publico</item>
+        <item>Mudanzas</item>
+        <item>Muebles</item>
+        <item>Municipalidad</item>
+        <item>Nutricionista</item>
+        <item>Odontologo</item>
+        <item>Oftalmologo</item>
+        <item>Optica</item>
+        <item>Organismo Judicial</item>
+        <item>Panaderia</item>
+        <item>Paquetes</item>
+        <item>Parada</item>
+        <item>Parqueo</item>
+        <item>Pediatra</item>
+        <item>Peleteria</item>
+        <item>Pinchazo</item>
+        <item>Pintor</item>
+        <item>Pisos</item>
+        <item>Pizza</item>
+        <item>Policia</item>
+        <item>Pollo Frito</item>
+        <item>Profesor Particular</item>
+        <item>Proveedor Agua</item>
+        <item>Proveedor Electricidad</item>
+        <item>Psicologo</item>
+        <item>PVC</item>
+        <item>Repuestos</item>
+        <item>Restaurante</item>
+        <item>Ropa</item>
+        <item>Sastreria</item>
+        <item>Software</item>
+        <item>Spa</item>
+        <item>Supermercado</item>
+        <item>Tacos</item>
+        <item>Taller de Bicicletas</item>
+        <item>Taller de Motos</item>
+        <item>Tapiceria</item>
+        <item>Techos</item>
+        <item>Telas</item>
+        <item>Television</item>
+        <item>Tienda de bicicletas</item>
+        <item>Tienda de conveniencia</item>
+        <item>Tienda de mascotas</item>
+        <item>Tramite</item>
+        <item>Transmision</item>
+        <item>Universidad</item>
+        <item>Uñas Acrilicas</item>
+        <item>Veterinario</item>
+        <item>Vitrales</item>
+        <item>Zapateria</item>
+
+    </string-array>
+
+</resources>
+
+

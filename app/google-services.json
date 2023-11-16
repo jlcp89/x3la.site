@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "80788162080",
+    "project_id": "x3lasite",
+    "storage_bucket": "x3lasite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80788162080:android:b447b10b183895cc135e45",
+        "android_client_info": {
+          "package_name": "site.x3la"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80788162080-mb6lt3of7vpkbrk8g06d4l8alova2qka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "site.x3la",
+            "certificate_hash": "1846e7e06319482b011716548929592aba174fb0"
+          }
+        },
+        {
+          "client_id": "80788162080-o97hvqeer5saga3ctrfnfqntie6el26f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "site.x3la",
+            "certificate_hash": "8a581ed6bd8abae356789f9de8bd0b2662be5827"
+          }
+        },
+        {
+          "client_id": "80788162080-vimtqpl21ho2m9bhht77tuamvfbtdh55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC58T7_fZSEqcaTcnLwBfLNyPBdbUYeKLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80788162080-rip6phbnbu9u4uofuskuuj0d9s07l198.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

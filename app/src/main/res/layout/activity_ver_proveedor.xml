@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".VerProveedor">
+
+    <LinearLayout
+        android:id="@+id/Linear1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_launcher_background"
+            android:layout_marginStart="30dp"
+            />
+
+        <TextView
+            android:id="@+id/textoTitulo"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="X3LA"
+            android:textSize="36sp"
+            android:gravity="right"
+            android:textColor="@color/azul_google"
+            />
+        <TextView
+            android:id="@+id/textoTitulo2"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="."
+            android:textSize="36sp"
+            android:gravity="right"
+            android:textColor="@color/rojo"
+            />
+        <TextView
+            android:id="@+id/textoTitulo3"
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text="SITE"
+            android:textSize="36sp"
+            android:gravity="left"
+            android:textColor="@color/azul_google"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewBandera"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/banderaxela3"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/azul_google"
+        android:textSize="22sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="170dp"
+        android:text="Teléfono"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTelefono"
+        android:layout_width="270dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="110dp"
+        android:text=""
+        android:textColor="@color/azul_google"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="240dp"
+        android:text="E-mail"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        android:text="Dirección"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDireccion"
+        android:layout_width="270dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="110dp"
+        android:text=""
+        android:textColor="@color/azul_google"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="270dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="110dp"
+        android:text=""
+        android:textColor="@color/azul_google"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="270dp"
+        android:text="Web"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewWeb"
+        android:layout_width="270dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="110dp"
+        android:text=""
+        android:textColor="@color/azul_google"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="300dp"
+        android:text="Descripción"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDescripcion"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="110dp"
+        android:text=""
+        android:textColor="@color/azul_google"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="159dp"
+        android:layout_marginBottom="183dp"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="120dp"
+        android:text="* Puede presionar el numero de telefono para llamar al proveedor, presionar el email para enviarle un correo o la pagina web para visitar la pagina del proveedor"
+        android:textColor="@color/azul_google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
